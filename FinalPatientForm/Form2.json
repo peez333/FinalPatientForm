@@ -1,0 +1,301 @@
+{
+    "QNS": {
+        "section": [
+                    {
+                    "title": "BEHAVIORAL RISK FACTORS",
+                    "cell": [
+                             {
+                             "title": "PHYSICAL INACTIVITY/LACK OF EXERCISE",
+                             "info": [
+                                      {
+                                      "question": "How many days a week do you usually exercise?",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "On days when you exercise, for how long do you usually exercise?",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "How intense is your typical exercise?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Light (like stretching or slow walking),Moderate (like brisk walking),Heavy (like jogging or swimming),Very heavy (like fast running or stair climbing),I am currently not exercising",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "SMOKING/TOBACCO USE",
+                             "info": [
+                                      {
+                                      "question": "Do you currently smoke cigarettes or use other types of tobacco?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Are you a former smoker?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes, and I quit,No, I’ve never smoked,Does not apply",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "If you quit smoking, how long ago did you quit smoking cigarettes?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Less than 6 months ago,6–11 months ago,1–5 years ago,6–10 years ago,More than 10 years ago,Does not apply",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Do you use these other tobacco products?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Cigars,Pipes,Chewing tobacco/snuff,I use no other tobacco products",
+                                      "userSelect": "multiple"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "ALCOHOL USE",
+                             "info": [
+                                      {
+                                      "question": "In a typical week, how many days do you drink alcohol?",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "On days when you drink alcohol, how many alcoholic drinks do you consume?",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "In a typical week, how often do you have 5 or more alcoholic drinks on single occasion?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Never,Once a week,2–3 times per week,More than 3 times per week",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "NUTRITION",
+                             "info": [
+                                      {
+                                      "question": "On a typical day, how many servings of fruits and/or vegetables do you eat? (1 serving = 1 cup of fresh vegetables, 1⁄2 cup of cooked vegetables, or 1 medium piece of fruit, 1 cup = size of a baseball)",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "On a typical day, how many servings of high fiber or whole grain foods do you eat? (1 serving = 1 slice of 100% whole wheat bread, 1 cup of whole-grain or high-fiber ready-to-eat cereal, 1⁄2 cup of cooked cereal such as oatmeal, or 1⁄2 cup of cooked brown rice or whole wheat pasta)",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "On a typical day, how many servings of fried or high-fat foods do you eat? (Examples include fried chicken, fried fish, bacon, French fries, potato chips, corn chips, doughnuts, creamy salad dressings, and foods made with whole milk, cream, cheese, or mayonnaise)",
+                                      "control": "TextField"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "MOTOR VEHICLE SAFETY",
+                             "info": [
+                                      {
+                                      "question": "Do you always fasten your seat belt when you are in the car?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Do you ever drive after drinking, or ride with a driver who has been drinking?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "SUN EXPOSURE",
+                             "info": [
+                                      {
+                                      "question": "Do you protect yourself from the sun when you are outdoors?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                                    }
+                             ]
+                    },
+                    {
+                    "title": "BIOMETRIC MEASURES (SELF-REPORTED)",
+                    "cell": [
+                             {
+                             "title": "BLOOD PRESSURE",
+                             "info": [
+                                      {
+                                      "question": "If your blood pressure was checked within the past year, what was it when it was last checked?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Low or normal (at or below 120/80),Borderline high (120/80 to 139/89),High (140/90 or higher),Don’t know/not sure,Does not apply",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "CHOLESTEROL",
+                             "info": [
+                                      {
+                                      "question": "If your cholesterol was checked within the past year, what was your total cholesterol when it was last checked?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Desirable (Below 200),Borderline high (200-239),High (240 or higher),Don’t know/not sure,Does not apply",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "BLOOD GLUCOSE",
+                             "info": [
+                                      {
+                                      "question": "If your glucose was checked within the past year, what was your fasting blood glucose (blood sugar) level the last time it was checked?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Desirable (Below 100),Borderline high (100–125),High (126 or higher),Don’t know/not sure,Does not apply",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Have you ever been told by a doctor or a health professional that you have diabetes or high blood sugar?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "If you have had your hemoglobin A-1C level checked within the past year, what was it the last time you had it checked?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Desirable (6 or lower),Borderline high (7),High (8 or higher),Don’t know/not sure,Does not apply",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "OVERWEIGHT/OBESITY",
+                             "info": [
+                                      {
+                                      "question": "What is your height? Example: 5 feet, 6 inches = 5'6\"",
+                                      "control": "TextField"
+                                      },
+                                      {
+                                      "question": "What is your weight?",
+                                      "control": "TextField"
+                                      }
+                                      ]
+                             }
+                             ]
+                    },
+                    {
+                    "title": "PSYCHOSOCIAL RISK FACTORS",
+                    "cell": [
+                             {
+                             "title": "DEPRESSION",
+                             "info": [
+                                      {
+                                      "question": "Over the past 2 weeks, how often have you felt down, depressed, or hopeless?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Almost all of the time,Most of the time,Some of the time,Almost never",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Over the past 2 weeks, how often have you felt little interest or pleasure in doing things?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Almost all of the time,Most of the time,Some of the time,Almost never",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "Have your feelings caused you distress or interfered with your ability to interact socially with friends?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "During the past 6 months, how often have you felt sad or depressed?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Almost all of the time,Most of the time,Some of the time,Almost never",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "In general, how satisfied are you with your life?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Very satisfied,Satisfied,Dissatisfied,Very dissatisfied",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "HIGH STRESS",
+                             "info": [
+                                      {
+                                      "question": "How often is stress a problem for you?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Never/rarely,Sometimes,Often,Always",
+                                      "userSelect": "single"
+                                      },
+                                      {
+                                      "question": "How well do you handle the stress in your life?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "I’m usually able to cope effectively,At times I have problems coping,I often have problems coping",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "GENERAL WELL-BEING",
+                             "info": [
+                                      {
+                                      "question": "In general, would you say your health is",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Excellent,Very good,Good,Fair,Poor",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "SOCIAL/EMOTIONAL SUPPORT",
+                             "info": [
+                                      {
+                                      "question": "How often do you get the social and emotional support you need:",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Always,Usually,Sometimes,Rarely,Never",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "GENERAL LIFE SATISFACTION",
+                             "info": [
+                                      {
+                                      "question": "In general, how satisfied are you with your life:",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Very satisfied,Satisfied,Dissatisfied,Very dissatisfied",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             },
+                             {
+                             "title": "SLEEP",
+                             "info": [
+                                      {
+                                      "question": "How many hours of sleep do you usually get each night?",
+                                      "control": "TextField"
+                                      }
+                                      ]
+                             }
+                             ]
+                    },
+                    {
+                    "title": "CHEMOPROPHYLAXIS",
+                    "cell": [
+                    {
+                             "title": "DAILY ASPIRIN USE",
+                             "info": [
+                                      {
+                                      "question": "Have you discussed taking a daily aspirin with your doctor?",
+                                      "control": "DisclosureIndicator",
+                                      "selectValue": "Yes,No",
+                                      "userSelect": "single"
+                                      }
+                                      ]
+                             }
+                             ]
+                    }
+                    ]
+    }
+}

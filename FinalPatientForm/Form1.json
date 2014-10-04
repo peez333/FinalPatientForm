@@ -1,0 +1,394 @@
+{
+    "QNS": {
+        "section": [
+                    {
+                    "title": "Name and Demographic Information",
+                    "info": [
+                             {
+                             "name": "FirstName",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "LastName",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "Address",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "City",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "State/Province",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "Zip/Postal",
+                             "control": "TextField"
+                             },
+                             {
+                             "name": "Gender",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Male,Female"
+                             },
+                             {
+                             "name": "Race",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Asian,Black or African American,Hispanic or Latino,White,Mixed Race"
+                             },
+                             {
+                             "name": "Age",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Under 20,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99,100-109"
+                             },
+                             {
+                             "name": "Height",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "abc,pqr,xyz"
+                             },
+                             {
+                             "name": "Education Label",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Some High School,High School,Vocational,Bachelors,Masters,Advanced"
+                             },
+                             {
+                             "name": "Weight",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "abc,pqr,xyz"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Personal Health Status",
+                    "info": [
+                             {
+                             "name": "My health in past year",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Improved,Declined,Stayed the same"
+                             },
+                             {
+                             "name": "My last physician visit was",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in last 6 months,in last 12 months,in last 2 years,in last 5 years,more than 5 years"
+                             },
+                             {
+                             "name": "My last dental exam was",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in last 6 months,in last 12 months,in last 2 years,in last 5 years,more than 5 years"
+                             },
+                             {
+                             "name": "Glaucoma/eye test",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Fecal occult/colorectal exam",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Prostate exam (PSA)",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Pap test/pelvic exam",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Mammogram test",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Notes",
+                             "control": "TextView"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Personal Safety and Behaviour",
+                    "info": [
+                             {
+                             "name": "I wear my seatbelt",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Never"
+                             },
+                             {
+                             "name": "Alcohol and Driving",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "I never drink & drive,pqr,I sometime drink & drive"
+                             },
+                             {
+                             "name": "Alcohol use",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "I don't drink,1-4 drinks per week,5-10 drinks per week,11-15 drinks per week,more than 15 per week"
+                             },
+                             {
+                             "name": "Tobacco use",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Have never smoked,Smoke daily less than 1 pack,Smoke daily more than 1 packs,Quit in past year,Quit in past 5 years,Quit 5+ years ago"
+                             },
+                             {
+                             "name": "I practice safe sex",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Never"
+                             },
+                             {
+                             "name": "STD testing",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "in the last 6 months,in the last 12 months,in the last 2 years,in the last 5 years,more than 5 years,Never"
+                             },
+                             {
+                             "name": "Hepatitis vaccination",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Yes, in the last 10 years,No"
+                             },
+                             {
+                             "name": "Flu shot",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always - annually,Sometimes,Never"
+                             },
+                             {
+                             "name": "Skin protection",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always use sunscreen,Never"
+                             },
+                             {
+                             "name": "Helmet use",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Never"
+                             },
+                             {
+                             "name": "Smoke detectors",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Home has smoke detector,No smoke detectors"
+                             },
+                             {
+                             "name": "Bathroom",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Bathtub has non-skid surface,No non-skid surface"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Personal Fitness and Nutrition",
+                    "info": [
+                             {
+                             "name": "Cardio/aerobic exercise",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5+ hours per week,3 hours per week,2 hours per week,1 hour per week,I don't exercise"
+                             },
+                             {
+                             "name": "Stretching (including yoga)",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5+ hours per week,3 hours per week,2 hours per week,1 hour per week,I don't exercise"
+                             },
+                             {
+                             "name": "Strength/weight training",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5+ hours per week,3 hours per week,2 hours per week,1 hour per week,I don't exercise"
+                             },
+                             {
+                             "name": "Walking (> 20 minutes)",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5+ hours per week,3 hours per week,2 hours per week,1 hour per week,I don't exercise"
+                             },
+                             {
+                             "name": "I eat three meals a day",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "I eat fast food",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Everyday,3-5 times a week,Once a week,Once in a while"
+                             },
+                             {
+                             "name": "Fruits and vegetables",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5 servings/day,3-5 servings/day,1-2 servings/day,0 servings/day"
+                             },
+                             {
+                             "name": "Fish and poultry",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5 servings/day,3-5 servings/day,-2 servings/day,1-2 servings/week,I don't eat meat"
+                             },
+                             {
+                             "name": "Red meat",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5+ servings/week,3-5 servings/week,1-2 servings/week,1-2 servings/month,I don't eat red meat"
+                             },
+                             {
+                             "name": "Bread and grains",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "5 servings/day,3-5 servings/day,1-2 servings/day,0 servings/day"
+                             },
+                             {
+                             "name": "I take a daily multivitamin",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Yes,No"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Work Environment",
+                    "info": [
+                             {
+                             "name": "I like my job",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "I like the people I work with",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "High pressure work",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "I worry about money",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "Work affects my sleep",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "Work affects my appetite",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "Quality of management",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Consistently good,Consistently poor,Not consistent"
+                             },
+                             {
+                             "name": "Work-life balance",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Social and Emotional Health",
+                    "info": [
+                             {
+                             "name": "Most days I feel",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Happy & positive,Sad & depressed,Angry & frustrated,Anxious & worried,Calm & satisfied"
+                             },
+                             {
+                             "name": "I enjoy my favorite activities",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "In the past year, my mood has",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Improved,Decline,Stayed the same"
+                             },
+                             {
+                             "name": "I feel fatigued or tired",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "I can count on emotional support from friends",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             },
+                             {
+                             "name": "I can count on emotional support from family",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Always,Usually,Sometimes,Seldom,Never"
+                             }
+                             ]
+                    },
+                    {
+                    "title": "Activities of Daily Life (ADL/IADL)(For age 60+ and Medicare beneficiaries)",
+                    "info": [
+                             {
+                             "name": "Drives own car",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Yes,No"
+                             },
+                             {
+                             "name": "Other transportation",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Using telephone",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Shopping",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Manage money",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Manage medications",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Laundry",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Food preparation",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Housekeeping",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Dressing",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Bathing",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Toileting",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Fully functional,Sometime needs help,Always needs help,Unable to do"
+                             },
+                             {
+                             "name": "Ability to walk",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Walks unassisted,Uses cane,Uses walker,Unable to walk"
+                             },
+                             {
+                             "name": "Feeding",
+                             "control": "DisclosureIndicator",
+                             "selectValue": "Eats unassisted,Sometime needs help,Unable to feed self"
+                             }
+                             ]
+                    }
+                    ]
+    }
+}
